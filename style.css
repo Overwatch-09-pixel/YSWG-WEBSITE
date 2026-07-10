@@ -58,3 +58,28 @@
     font-weight: bold;
     font-size: 16px;
 }
+
+.services {
+    padding: 60px 24px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.services h2 {
+    font-size: 28px;
+    margin-bottom: 32px;
+    color: darkblue;
+}
+
+.service-card {
+    background-color: white;
+    padding: 24px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+}
+
+.service-card h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: darkblue;
+}
