@@ -29,3 +29,10 @@
     font-weight: bold;
     white-space: nowrap;
 }
+
+.hero {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 80px 24px;
+}
