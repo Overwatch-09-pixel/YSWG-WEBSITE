@@ -22,3 +22,15 @@
     color: white;
     text-decoration: none;
 }
+
+.logo {
+    color: white;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
