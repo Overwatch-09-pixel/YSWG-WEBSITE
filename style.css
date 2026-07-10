@@ -83,3 +83,34 @@
     margin-bottom: 8px;
     color: darkblue;
 }
+
+.how-it-works {
+    padding: 60px 24;
+    text-align: center;
+    background-color: white;
+}
+
+.how-it-works h2 {
+    font-size: 28px;
+    color: darkblue;
+    margin-bottom: 32px;
+}
+
+.how-it-works ol {
+    list-style: none;
+    padding: 0;
+}
+
+.how-it-works li {
+    background-color: whitesmoke;
+    padding: 24px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    border-left: 4px solid orange;
+}
+
+.how-it-works h3 {
+    color: darkblue;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
