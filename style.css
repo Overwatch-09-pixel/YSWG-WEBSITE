@@ -114,3 +114,26 @@
     margin-bottom: 8px;
     font-size: 18px;
 }
+
+.why-us {
+    background: darkblue;
+    text-align: center;
+}
+
+.why-us h2 {
+    font-size: 28px;
+    color: white;
+    margin-bottom: 32px;
+}
+
+.reason {
+    background-color: white;
+    padding: 24px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+}
+
+.reason h3 {
+    color: orange;
+    margin-bottom: 8px;
+}
