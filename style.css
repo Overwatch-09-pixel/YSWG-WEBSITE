@@ -137,3 +137,51 @@
     color: orange;
     margin-bottom: 8px;
 }
+
+.coverage {
+    background-color: whitesmoke;
+    padding: 60px 24px;
+    text-align: center;
+}
+
+.coverage h2 {
+    color: darkblue;
+    margin-bottom: 16px;
+}
+
+.coverage p {
+    margin-bottom: 24px;
+}
+
+.coverage ul {
+    list-style: none;
+    padding: 0;
+}
+
+.coverage li {
+    padding: 8px 0;
+    color: darkblue;
+    font-weight: bold;
+}
+
+.contact {
+    background-color: darkblue;
+    padding: 60px 24px;
+    text-align: center;
+}
+
+.contact h2 {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 32px;
+}
+
+.contact-details p {
+    margin-bottom: 12px;
+}
+
+.contact-details a {
+    color: orange;
+    text-decoration: none;
+    font-weight: bold;
+}
