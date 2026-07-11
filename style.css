@@ -176,6 +176,10 @@
     margin-bottom: 32px;
 }
 
+.contact p {
+    color: whitesmoke;
+}
+
 .contact-details p {
     margin-bottom: 12px;
 }
