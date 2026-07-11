@@ -30,7 +30,7 @@
     color: orange;
 }
 
-#menu-toogle {
+#menu-toggle {
     display: none;
 }
 
@@ -62,7 +62,7 @@
         z-index: 10;
     }
 
-    #menu-toogle:checked ~ ul {
+    #menu-toggle:checked ~ ul {
         display: flex;
     } 
 
