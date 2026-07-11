@@ -46,6 +46,10 @@
         display: block;
     }
 
+    .navbar {
+        position: relative;
+    }
+
     .navbar ul {
         display: none;
         flex-direction: column;
