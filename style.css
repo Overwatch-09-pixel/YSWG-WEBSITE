@@ -22,6 +22,11 @@
     color: white;
     text-decoration: none;
     font-size: 13px;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: orange;
 }
 
 .logo {
@@ -64,6 +69,11 @@
     text-decoration: none;
     font-weight: bold;
     font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: darkorange;
 }
 
 .services {
@@ -83,6 +93,11 @@
     padding: 24px;
     margin-bottom: 16px;
     border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.service-card:hover {
+    background-color: whitesmoke;
 }
 
 .service-card h3 {
@@ -138,6 +153,12 @@
     padding: 24px;
     margin-bottom: 16px;
     border-radius: 8px;
+    transition: color 0.3s ease;
+}
+
+.reason:hover {
+    box-shadow: 0 4px 12px;
+    color: lightgray;
 }
 
 .reason h3 {
