@@ -2,6 +2,7 @@
     margin: 0;
     padding:0;
     box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
 }
 
 .navbar {
@@ -22,12 +23,24 @@
     color: white;
     text-decoration: none;
     font-size: 13px;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: orange;
 }
 
 .logo {
-    color: white;
+    font-size: 24px;
     font-weight: bold;
-    white-space: nowrap;
+}
+
+.logo-ys {
+    color: white;
+}
+
+.logo-wg {
+    color: orange;
 }
 
 .hero {
@@ -57,6 +70,11 @@
     text-decoration: none;
     font-weight: bold;
     font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: darkorange;
 }
 
 .services {
@@ -76,6 +94,11 @@
     padding: 24px;
     margin-bottom: 16px;
     border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.service-card:hover {
+    background-color: whitesmoke;
 }
 
 .service-card h3 {
@@ -113,4 +136,85 @@
     color: darkblue;
     margin-bottom: 8px;
     font-size: 18px;
+}
+
+.why-us {
+    background: darkblue;
+    text-align: center;
+}
+
+.why-us h2 {
+    font-size: 28px;
+    color: white;
+    margin-bottom: 32px;
+}
+
+.reason {
+    background-color: white;
+    padding: 24px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    transition: color 0.3s ease;
+}
+
+.reason:hover {
+    box-shadow: 0 4px 12px;
+    color: lightgray;
+}
+
+.reason h3 {
+    color: orange;
+    margin-bottom: 8px;
+}
+
+.coverage {
+    background-color: whitesmoke;
+    padding: 60px 24px;
+    text-align: center;
+}
+
+.coverage h2 {
+    color: darkblue;
+    margin-bottom: 16px;
+}
+
+.coverage p {
+    margin-bottom: 24px;
+}
+
+.coverage ul {
+    list-style: none;
+    padding: 0;
+}
+
+.coverage li {
+    padding: 8px 0;
+    color: darkblue;
+    font-weight: bold;
+}
+
+.contact {
+    background-color: darkblue;
+    padding: 60px 24px;
+    text-align: center;
+}
+
+.contact h2 {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 32px;
+}
+
+.contact p {
+    color: whitesmoke;
+}
+
+.contact-details p {
+    margin-bottom: 12px;
+}
+
+.contact-details a {
+    color: orange;
+    text-decoration: none;
+    font-weight: bold;
 }
