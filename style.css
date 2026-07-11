@@ -231,3 +231,39 @@
     margin-bottom: 8px;
     opacity: 0.7;
 }
+
+#menu-toogle {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .menu-icon {
+        display: block;
+    }
+
+    .navbar ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background-color: darkblue;
+    }
+
+    #menu-toogle:checked ~ ul {
+        display: flex;
+    } 
+
+    .navbar ul li {
+        padding: 12px 0;
+    }
+}
